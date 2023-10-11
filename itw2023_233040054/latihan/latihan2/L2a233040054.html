@@ -1,20 +1,57 @@
-<html>
-    <head>
-        <title>TABLE</title>
-    </head>
-    <body>
-        <table widht="30" border="1" cellspacing="3">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table{
+            text-align: center;
+            background-color: lightblue;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        thead{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table widht="85%" border="1" cellspacing="5" cellpading="10">
+        <thead>
             <tr>
-                <td>DATA NAHASISWA</td>
+                <td colspan="6">DESKRIPSI MAHASISWA</td>
             </tr>
             <tr>
-                <td>No.</td>
-                <td>NRP</td>
-                <td>NAMA</td>
+                <td rowspan="2">No.</td>
+                <td rowspan="2">NRP</td>
+                <td colspan="2">NAMA</td>
+                <td rowspan="2">ALAMAT</td>
+                <td rowspan="2">No HP</td>
             </tr>
-
-
+            <tr>
+                <td>Nama Depan</td>
+                <td>Nama Belakang</td>
             </tr>
-        </table>
-    </body>
+            <tr>
+                <td>1</td>
+                <td>113040001</td>
+                <td>Asep</td>
+                <td>Setia</td>
+                <td>Setiabudhi</td>
+                <td>081234567890</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td rowspan="2">113040011</td>
+                <td rowspan="2">Dani</td>
+                <td rowspan="2">Gunawan</td>
+                <td rowspan="2">Lembang</td>
+                <td>089038131212</td>
+            </tr>
+            <tr>
+                <td>081392482222</td>
+            </tr>
+        </thead>
+    </table>
+</body>
 </html>
