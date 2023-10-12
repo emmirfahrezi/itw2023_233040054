@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form+table</title>
+    <style>
+        thead,tr,td{
+            padding: 10px;
+        }
+
+        .palak1{
+            background-color: gray;
+            text-align: center;
+        }
+
+        table td{
+            border-color: black;
+            border-style: solid;
+            border-width: 1px;
+        }
+
+        .submit-button{
+            float: right;
+        }
+
+
+        
+
+ 
+
+
+    </style>
+</head>
+<body>
+    <table cellspacing="0"><form>
+        <thead>
+           <tr>
+            <td class="palak1" colspan="3">INPUT DATA MAHASISWA</td>
+           </tr> 
+           <tr>
+            <td colspan="1">Username</td>
+            <td colspan="1">:</td>
+            <td colspan="1">
+                <input type="text" name="first name" id="class">
+            </td>
+           </tr>
+           <tr>
+            <td colspan="1">Pasword</td>
+            <td colspan="1">:</td>
+            <td colspan="1">
+                <input type="text" name="pasword" id="class">
+            </td>
+           </tr>
+           <tr>
+            <td colspan="1">Full name</td>
+            <td colspan="1">:</td>
+            <td colspan="1">
+                <input type="text" name="fullname" id="class">
+            </td>
+           </tr>
+           <tr>
+            <td colspan="1">E-mail</td>
+            <td colspan="1">:</td>
+            <td colspan="1">
+                <input type="text" name="E-mail" id="class">
+            </td>
+           </tr>
+           <tr>
+            <td colspan="1">Agama</td>
+            <td colspan="1">:</td>
+            <td colspan="1">
+                <select>
+                    <option name="Agama" selected>--Pilih Agama--</option>
+                    <option value="Sepeda">Sepeda</option>
+                    <option value="motor">Motor</option>
+                    <option value="mobil">Mobil</option>
+                    <option value="Pesawat terbang">Pesawat Terbang</option>
+                </select>
+            </td>
+           </tr>
+           <tr>
+            <td colspan="1">Jenis Kelamin</td>
+            <td colspan="1">:</td>
+            <td>
+                <br/>
+                <input type="radio" name="man" value="Laki-laki"/>Laki-laki
+                <input type="radio" name="woman" value="Peremopuan"/>Perempuan
+            </td>
+           </tr>
+           <tr>
+            <td colspan="1">Hobi</td>
+            <td colspan="1">:</td>
+            <td>
+                <br/>
+                <input type="checkbox" name="music" value="musik">musik
+                <input type="checkbox" name="woman" value="Peremopuan">Olahraga
+                <input type="checkbox" name="games" value="Game">Gaming
+                <input type="checkbox" name="other" value="lainnya">lainnya
+            </td>
+           </tr>
+           <tr>
+            <td colspan="1">Profil Singkat</td>
+            <td colspan="1">:</td>
+            <td>
+                <br/>
+                <textarea name="profil singkat" id="class" cols="35" rows="5"></textarea>
+            </td>
+           </tr>
+        </tr>
+        <tr class="ekor2">
+            <td colspan="3">
+                <input type="submit" name="submit" value="submit" class="submit-button">
+            </td>
+        </tr>    
+        </thead>
+    </form></table>
+
+    
+</body>
+</html>
