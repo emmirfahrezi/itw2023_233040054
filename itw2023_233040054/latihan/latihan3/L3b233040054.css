@@ -1,0 +1,25 @@
+body{
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h1{
+    font-family: Comic Sans MS;
+    color: darkblue;
+    font-size: 60px;
+}
+
+h4{
+    text-align: right;
+}
+
+h3{
+    text-align: left;   
+}
+.h3plok{
+    color: aliceblue;
+}
+.p1plok{
+    color: rgb(239, 172, 4);
+}
