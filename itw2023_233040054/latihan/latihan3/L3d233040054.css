@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(to bottom, aqua 1%, white 17%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h1{
+    font-family: Comic Sans MS;
+    color: darkblue;
+    font-size: 60px;
+}
+
+h4{
+    text-align: center;
+}
+
+h3{
+    text-align: center;   
+}
+.h3plok{
+    color: brown;
+}
+
+.h3plok:hover{
+    color: brown;
+    text-decoration: none;
+}
+
+.p1plok{
+    color: rgb(239, 172, 4);
+}
+
+.p2plok{
+    color: rgb(5, 5, 234);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.p2plok:hover{
+    color: white;
+    background-color: rgb(5, 5, 234);
+    
+}
+
+
