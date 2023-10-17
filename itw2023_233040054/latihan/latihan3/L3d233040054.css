@@ -1,5 +1,6 @@
 body{
-    background: linear-gradient(to bottom, aqua 1%, white 17%);
+    background-image: url(bck.png);
+    background-repeat: repeat-x;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
