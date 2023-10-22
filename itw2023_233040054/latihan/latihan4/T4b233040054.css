@@ -1,0 +1,236 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  /*margin: 0;*/
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1.5;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body{
+    font: 16px/28px arial sans-serief;
+    background-color: rgba(240, 229, 240, 0.667);
+    color: black;
+    background-image: url(mon.png);
+}
+
+
+
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: #b4b0b0;
+}
+
+.header{
+    padding: 18px;
+}
+
+.judul{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header a{
+    text-decoration: none;
+    color: rgb(181, 79, 7);
+    padding: 3px;
+}
+
+.header a:hover{
+    background-color:  rgb(181, 79, 7);
+    color: black;
+}
+
+.hero{
+    height: 280px;
+    background-image: url("mobil.jpg");
+    border-top: rgb(181, 79, 7) 5px solid;
+    border-bottom: rgb(181, 79, 7) 5px solid;
+    background-size: cover;
+    background-position: 0-200px;
+}
+
+.content{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.content .penulis a{
+    color: rgb(181, 79, 7);
+    text-decoration: none;
+}
+
+.content .penulis a:hover{
+    background-color: rgb(181, 79, 7);
+    color: black;
+}
+
+.content .penulis{
+    font-size: 14px;
+    margin-top: -20px;
+}
+
+h3{
+  font-size: 18px;
+  padding: 15px;
+
+}
+
+.text{
+  font-size: 14px;
+  font-weight: 100;
+  margin-top: -50px;
+  padding: 15px;
+
+}
+
+.mobilsport{
+  width: 50%;
+  height: auto;
+}
+
+.img1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background-color: #333333;
+  padding: 10px;
+}
+
+.footer .copy{
+  color: #eaeaea;
+  text-align: center;
+  font-size: 12px;
+}
+
