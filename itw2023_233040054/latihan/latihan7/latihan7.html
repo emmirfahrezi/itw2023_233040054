@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid css</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/grid.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+        <header class="hero">
+            <h2 class="heading">VOLLEY NAKS MUDA</h2>
+            <p class="sub-heading">Jersey & Bola</p>
+        </header>
+        <header class="features feature-1">
+            <h4 class="price">IDR 15OK</h4>
+            <p class="item">Jersey</p>
+        </header>
+        <header class="features feature-2">
+            <h4 class="price">IDR 600K</h4>
+            <p class="item">Bola</p>
+        </header>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1>VOLLEY</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon">
+                    <span class="material-symbols-outlined">
+                        settings_accessibility
+                    </span>
+                </div>
+                <h3>Tutorial</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa facilis esse quas sit?</p>
+            </div>
+            <div class="service">
+                <div class="icon">
+                    <span class="material-symbols-outlined">
+                        install_mobile
+                        </span>
+                </div>
+                <h3>Online course</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa facilis esse quas sit?</p>
+            </div>
+            <div class="service">
+                <div class="icon">
+                    <span class="material-symbols-outlined">
+                        keyboard_voice
+                        </span>
+                </div>
+                <h3>podcast</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa facilis esse quas sit?</p>
+            </div>
+            <div class="service">
+                <div class="icon">
+                    <span class="material-symbols-outlined">
+                        view_compact_alt
+                        </span>
+                </div>
+                <h3>merch</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa facilis esse quas sit?</p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="./img/pic_trulli.jpg" >
+            <img src="https://www.jquery-az.com/html/images/banana.jpg" title="Title of image" alt="alt text here"/>
+            <img src="./img/1.jpeg" >
+            <img src="./img/2.jpg" >
+            <img src="./img/3.jpg" >
+            <img src="./img/4.jpg" >
+            <img src="./img/5.jpg" >
+            <img src="./img/6.jpg" >
+            <img src="./img/7.jpg" >
+            <img src="./img/8.jpg" >
+        </section>
+    </div>    
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function() {
+        nav.classList.toggle('slide');
+        });
+    </script>
+</body>
+</html>
